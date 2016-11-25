@@ -11,7 +11,9 @@ f-measure= 2 × Pr × Re/(Pr + Re) where: Pre= TP/(TP + FP); Rec= TP/(TP + FN);
 - TN is the number of true negatives (class 2 members predicted as class 2),
 - FP is the number of false positives (class 2 members predicted as class 1),
 - FN is the number of false negatives (class 1 members predicted as class 2).<br>
-Besides, use z-score standardization and do it again.<br>
+Besides, use z-score standardization and do it again.
+
+
 ## p3
 Apply three clustering techniques to the handwritten digits dataset. Assume with k=10:
 - k-means clustering implemented above
@@ -21,7 +23,9 @@ The primary dataset is the handwritten digits datasets.load_digits with descript
 http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits<br>
 Report the confusion matrix.<br>
 Calculate the accuracy of each clustering method using Fowlkes and Mallows index:<br>
-https://en.wikipedia.org/wiki/Fowlkes–Mallows_index<br>
+https://en.wikipedia.org/wiki/Fowlkes–Mallows_index
+
+
 ## p4
 Apply three classification techniques to the same realdata1.zip dataset as in p2:
 - LinearSVC
